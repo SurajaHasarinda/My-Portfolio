@@ -1,0 +1,9 @@
+/* when the screen is less than 800px, hide the desktop nav and show the hamburger nav */
+@media screen and (max-width: 800px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
